@@ -1,0 +1,20 @@
+{
+    "name": "dhii/data-object-trait-read",
+    "description": "The read traits of Data Object",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dhii Team",
+            "email": "development@dhii.co"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Dhii\\DataObject\\": "src/"
+        }
+    }
+}
