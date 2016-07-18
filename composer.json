@@ -10,11 +10,21 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "dhii/stringable-interface": "dev-master"
+    },
     "require-dev": {
+        "friendsofphp/php-cs-fixer": ">=1.11",
+        "dhii/php-cs-fixer-config": "dev-master",
+        "phpunit/phpunit": "^5.4",
+        "codeclimate/php-test-reporter": "dev-master",
         "dhii/test-base": "dev-master"
     },
     "repositories": [
+        {
+            "url": "https://github.com/Dhii/php-cs-fixer-config.git",
+            "type": "git"
+        },
         {
             "url": "https://github.com/Dhii/test-base.git",
             "type": "git"
@@ -25,6 +35,10 @@
         },
         {
             "url": "https://github.com/Dhii/test-common.git",
+            "type": "git"
+        },
+        {
+            "url": "https://github.com/dhii/stringable-interface",
             "type": "git"
         }
     ],
