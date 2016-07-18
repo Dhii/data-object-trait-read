@@ -11,10 +11,26 @@
     ],
     "minimum-stability": "dev",
     "require": {},
-    "require-dev": {},
+    "require-dev": {
+        "dhii/test-base": "dev-master"
+    },
+    "repositories": [
+        {
+            "url": "https://github.com/Dhii/test-base.git",
+            "type": "git"
+        },
+        {
+            "url": "https://github.com/Dhii/test-base-interface.git",
+            "type": "git"
+        },
+        {
+            "url": "https://github.com/Dhii/test-common.git",
+            "type": "git"
+        }
+    ],
     "autoload": {
         "psr-4": {
-            "Dhii\\DataObject\\": "src/"
+            "Dhii\\Data\\": "src/"
         }
     }
 }
